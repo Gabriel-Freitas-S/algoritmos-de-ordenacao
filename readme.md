@@ -37,12 +37,5 @@ Para instalar as dependências do projeto, utilize o [pnpm](https://pnpm.io/):
 ```sh
 pnpm install
 ```
-
-## Uso
-Explique como utilizar o projeto, incluindo exemplos de uso, opções e outros detalhes relevantes que possam ser úteis.
-
-## Licença
-Este projeto é de domínio público e foi criado para fins acadêmicos. Sintam-se livres para usá-lo e modificá-lo conforme necessário.
-
 ---
 Este projeto é de domínio público e foi criado para fins acadêmicos.
