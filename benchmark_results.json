@@ -1,0 +1,986 @@
+[
+  {
+    "file": "10000_aleatoria.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.106956000"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.016951000"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.002017700"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.006717800"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.031116400"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.008962500"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.014275400"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.006963000"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.053061000"
+      }
+    ]
+  },
+  {
+    "file": "10000_aleatorio_dobro.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.099172600"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.017648900"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.001009900"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.002673100"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.032184900"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.006354000"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.002411600"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.008936000"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.054068500"
+      }
+    ]
+  },
+  {
+    "file": "10000_decrescente.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.105480900"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.009300400"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000462600"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.002320700"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.067173200"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.005331300"
+      },
+      {
+        "algorithm": "quickSort",
+        "error": "Maximum call stack size exceeded"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.007476500"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.048127000"
+      }
+    ]
+  },
+  {
+    "file": "1000_aleatoria.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.001152700"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000398000"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000299800"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000333100"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000467600"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000547100"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000181000"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000179800"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000921800"
+      }
+    ]
+  },
+  {
+    "file": "1000_aleatorio_dobro.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.001729000"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000417100"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000336800"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000155200"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000323200"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000844900"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000230400"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000131400"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000815000"
+      }
+    ]
+  },
+  {
+    "file": "1000_decrescente.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.001398600"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000213200"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000248400"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000164100"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000941000"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000459400"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.008726400"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000121000"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000789900"
+      }
+    ]
+  },
+  {
+    "file": "100_aleatoria.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000037700"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000048500"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000083200"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000036700"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000030100"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000142700"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000042000"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000081800"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000040800"
+      }
+    ]
+  },
+  {
+    "file": "100_aleatorio_dobro.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000053000"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000073900"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000027300"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000033800"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000026500"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000117900"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000041500"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000055700"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000029700"
+      }
+    ]
+  },
+  {
+    "file": "100_decrescente.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000031000"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000125400"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000023900"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000030300"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000035700"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000113000"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000084100"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000160100"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000026000"
+      }
+    ]
+  },
+  {
+    "file": "10_aleatoria.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000016600"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000040800"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000015900"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000025700"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000020500"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000027800"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000021100"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000062800"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000021700"
+      }
+    ]
+  },
+  {
+    "file": "10_aleatorio_dobro.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000033400"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000043800"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000022100"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000026600"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000018100"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000028000"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000020200"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000038100"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000017900"
+      }
+    ]
+  },
+  {
+    "file": "10_decrescente.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000019800"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000028700"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000018500"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000017800"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000016100"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000027300"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000020500"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000035400"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000017000"
+      }
+    ]
+  },
+  {
+    "file": "50000_aleatoria.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "4.439823200"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.999177700"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.005051300"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.010277800"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.781394400"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.035966900"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.020300600"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.005754500"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "1.175137400"
+      }
+    ]
+  },
+  {
+    "file": "50000_aleatorio_dobro.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "4.767133500"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "2.871088300"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.006561500"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.020386700"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "2.266832100"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.101893000"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.044788500"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.012072700"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "3.640593800"
+      }
+    ]
+  },
+  {
+    "file": "50000_decrescente.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "7.584743000"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "3.040860900"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.003198600"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.026098400"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "5.071849500"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.085929100"
+      },
+      {
+        "algorithm": "quickSort",
+        "error": "Maximum call stack size exceeded"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.015965100"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "3.524160400"
+      }
+    ]
+  },
+  {
+    "file": "5000_aleatoria.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.049620500"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.012407700"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000141000"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.001215400"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.026383200"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.015884800"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.004247500"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.001383200"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.040332200"
+      }
+    ]
+  },
+  {
+    "file": "5000_aleatorio_dobro.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.077953000"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.025642700"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000308300"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.002497600"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.037285900"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.010224300"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.002005900"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.001336400"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.059853900"
+      }
+    ]
+  },
+  {
+    "file": "5000_decrescente.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.079918400"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.016956000"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000168800"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.002174200"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.065248100"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.007432500"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "1.149712800"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000758000"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.038111300"
+      }
+    ]
+  },
+  {
+    "file": "500_aleatoria.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.001301200"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000329000"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000098000"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000083900"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000148100"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000627200"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000142300"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000090200"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000252200"
+      }
+    ]
+  },
+  {
+    "file": "500_aleatorio_dobro.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000622500"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000334400"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000066200"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000330000"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000568200"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.001541800"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000332000"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000196900"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000882500"
+      }
+    ]
+  },
+  {
+    "file": "500_decrescente.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.001038700"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000151300"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000045600"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000073800"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000393000"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000462200"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.001736600"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000100000"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000816800"
+      }
+    ]
+  },
+  {
+    "file": "50_aleatoria.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000022200"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000048100"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000038900"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000024700"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000018600"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000071600"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000022800"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000037600"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000019300"
+      }
+    ]
+  },
+  {
+    "file": "50_aleatorio_dobro.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000089000"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000099100"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000058000"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000061800"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000036200"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000058700"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000025300"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000049000"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000022000"
+      }
+    ]
+  },
+  {
+    "file": "50_decrescente.json",
+    "benchmarks": [
+      {
+        "algorithm": "bubbleSort",
+        "time": "0.000074400"
+      },
+      {
+        "algorithm": "bucketSort",
+        "time": "0.000059100"
+      },
+      {
+        "algorithm": "countingSort",
+        "time": "0.000022600"
+      },
+      {
+        "algorithm": "heapSort",
+        "time": "0.000035900"
+      },
+      {
+        "algorithm": "insertionSort",
+        "time": "0.000021800"
+      },
+      {
+        "algorithm": "mergeSort",
+        "time": "0.000220700"
+      },
+      {
+        "algorithm": "quickSort",
+        "time": "0.000039200"
+      },
+      {
+        "algorithm": "radixSort",
+        "time": "0.000035900"
+      },
+      {
+        "algorithm": "selectionSort",
+        "time": "0.000042100"
+      }
+    ]
+  }
+]

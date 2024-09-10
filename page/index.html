@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados do Benchmark</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.2/css/bulma.min.css" integrity="sha512-RpeJZX3aH5oZN3U3JhE7Sd+HG8XQsqmP3clIbu4G28p668yNsRNj3zMASKe1ATjl/W80wuEtCx2dFA8xaebG5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .table-container {
+            margin-top: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">Resultados do Benchmark dos Algoritmos de Ordenação</h1>
+        <div>
+            <label for="quantidade-select">Escolha a quantidade:</label>
+            <select id="quantidade-select" class="select">
+                <option value="" disabled selected>Selecione a quantidade</option>
+            </select>
+        </div>
+        <div id="content" class="content">
+            <!-- Tabelas de resultados serão geradas aqui -->
+        </div>
+    </div>
+</section>
+<script>
+    // Aguarda o carregamento completo da página HTML e seus recursos
+    document.addEventListener("DOMContentLoaded", function() {
+        // Busca o arquivo JSON com os resultados do benchmark
+        fetch('../benchmark_results.json')
+            .then(response => response.json())
+            .then(data => {
+                // Popula o seletor com as quantidades únicas do JSON
+                populateSelect(data);
+                // Renderiza todas as tabelas de resultados
+                renderAllTables(data);
+                // Adiciona a funcionalidade de filtro ao seletor
+                document.getElementById('quantidade-select').addEventListener('change', function() {
+                    filterTablesByQuantity(this.value);
+                });
+            })
+            .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
+    });
+
+    // Função para popular o seletor com quantidades únicas
+    function populateSelect(data) {
+        const quantidadeSet = new Set();
+        data.forEach(result => {
+            const [quantidade] = result.file.split('_');
+            quantidadeSet.add(quantidade);
+        });
+        const select = document.getElementById('quantidade-select');
+        quantidadeSet.forEach(quantidade => {
+            const option = document.createElement('option');
+            option.value = quantidade;
+            option.textContent = quantidade;
+            select.appendChild(option);
+        });
+    }
+
+    // Função para renderizar todas as tabelas de resultados
+    function renderAllTables(data) {
+        const contentDiv = document.getElementById('content');
+        data.forEach(result => {
+            const [quantidade] = result.file.split('_');
+            const divContainer = document.createElement('div');
+            divContainer.classList.add('table-container', `quantidade-${quantidade}`);
+            const table = document.createElement('table');
+            table.classList.add('table', 'is-striped', 'is-hoverable');
+            const caption = document.createElement('caption');
+            caption.textContent = result.file;
+            table.appendChild(caption);
+            const thead = document.createElement('thead');
+            const trHead = document.createElement('tr');
+            const th1 = document.createElement('th');
+            th1.textContent = 'Algoritmo';
+            const th2 = document.createElement('th');
+            th2.textContent = 'Tempo (ns)';
+            trHead.appendChild(th1);
+            trHead.appendChild(th2);
+            thead.appendChild(trHead);
+            table.appendChild(thead);
+            const tbody = document.createElement('tbody');
+            result.benchmarks.forEach(benchmark => {
+                const tr = document.createElement('tr');
+                const tdAlgorithm = document.createElement('td');
+                tdAlgorithm.textContent = benchmark.algorithm;
+                const tdTime = document.createElement('td');
+                tdTime.textContent = benchmark.time;
+                tr.appendChild(tdAlgorithm);
+                tr.appendChild(tdTime);
+                tbody.appendChild(tr);
+            });
+            table.appendChild(tbody);
+            divContainer.appendChild(table);
+            contentDiv.appendChild(divContainer);
+        });
+    }
+
+    // Função para filtrar as tabelas com base na quantidade selecionada
+    function filterTablesByQuantity(quantidade) {
+        const tables = document.querySelectorAll('.table-container');
+        tables.forEach(table => {
+            if (table.classList.contains(`quantidade-${quantidade}`)) {
+                table.classList.remove('hidden');
+            } else {
+                table.classList.add('hidden');
+            }
+        });
+    }
+</script>
+</body>
+</html>
